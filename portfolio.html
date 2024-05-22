@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/components/header.css">
+  <link rel="stylesheet" href="styles/components/home.css">
+  <link rel="stylesheet" href="styles/components/portfolio.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/utilities.css">
+  <script src="https://kit.fontawesome.com/c339e0fb63.js" crossorigin="anonymous"></script>
+  <title>Raimer Thompson Photography</title>
+</head>
+<body>
+  
+  <header class="header container">
+    <nav id="nav" class="scroll__nav">
+      <ul class="header__menu-logo header__menu-left">
+        <li>
+          <a class="header__logo scroll__logo" href="index.html">Raimer Thompson</a>
+        </li>
+      </ul>
+      <ul id="navbar" class="header__menu header__menu-center">
+
+        <li class="header__link"><a class="active" href="index.html">HOME</a></li>
+        <li class="header__link"><a href="portfolio.html">PORTFOLIO</a></li>
+        <li class="header__link"><a href="about.html">ABOUT</a></li>
+        <li class="header__link"><a href="contact.html">CONTACT</a></li>
+
+      </ul>
+      <ul class="header__menu-right">
+        <div id="mobile">  
+         <div class="hamburger__menu-btn">
+           <button class="hamburger__btn scroll__btn" aria-controls="primary-navigation" aria-expanded="false">
+             <svg class="hamburger" viewBox="0 0 100 100" width="250">
+               <rect class="top line" 
+               width="100" height="5.5" 
+               x="1" y="25" rx="3.5">
+             </rect>
+               <rect class="middle line"
+                width="100" height="5.5" 
+                x="1" y="50" rx="3.5">
+               </rect>
+               <rect class="bottom line" 
+               width="100" height="5.5" 
+               x="1" y="60" rx="3.5">
+             </rect>
+             </svg>
+           </button>
+         </div>
+       </div> 
+     </ul> 
+  </nav>
+  </header>
+
+  <section class="portfolio__home-gallery">
+
+    <div class="image__container">
+      <div class="image">
+        <a class="gallery-link" href="">
+          <img src="img/CTG-GG1.jpg" alt="">
+          <div class="gallery-overlay">
+            <span>Cartagena Shoot</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+    <div class="image__container">
+      <div class="image">
+        <a class="gallery-link" href="">
+          <img src="img/NYC-Rodney2.jpg" alt="">
+          <div class="gallery-overlay">
+            <span>This is Rodney Doc</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+
+
+
+  </section>
+
+  
+
+  <script src="js/header.js"></script>
+
+</body>
+</html>
