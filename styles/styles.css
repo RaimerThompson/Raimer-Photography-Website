@@ -3,6 +3,16 @@
   src: url(/fonts/Bernadette\ Signature.ttf)
 }
 
+@font-face{
+  font-family: Header;
+  src: url(/fonts/LEMONMILK-Regular.otf)
+}
+
+@font-face{
+  font-family: Portfolio;
+  src: url(/fonts/Gilgan.otf)
+}
+
 
 * {
   margin: 0;

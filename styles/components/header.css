@@ -4,7 +4,7 @@ ul li a{
   font-size: 16px;
   letter-spacing: 1.25px;
   color: inherit;
-  font-family: 'Questrial', sans-serif;
+  font-family: Header;
   cursor: pointer;
 }
 
@@ -21,6 +21,11 @@ ul li{
 .header__link{
   padding-right: 20px;
   padding-top: .75rem;
+}
+
+.header__socials{
+  display: flex;
+  
 }
 
 .header__logo{
@@ -58,7 +63,7 @@ ul li{
   left:0;
   z-index: 100;
   padding: 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   transition: background-color .4s ease-in-out;
 }
 
