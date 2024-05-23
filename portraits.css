@@ -1,0 +1,18 @@
+.portraits-gallery{
+  width: calc(100% - 4rem);
+  margin: 10px auto;
+  columns: 5;
+  column-gap: 10px;
+  
+}
+
+.row{
+  margin-bottom: 10px;
+}
+
+.rodney-video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

@@ -1,0 +1,101 @@
+.portfolio__home-gallery{
+  margin: auto 2rem;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  columns: 2;
+  column-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolio-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  font-family: Header;
+  margin-bottom: 3.25rem;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+
+.image__container{
+  display: flex;
+  flex-direction: column;
+  width: 49.5%;
+  object-fit: cover;
+  position: relative;
+  cursor: pointer;
+}
+
+.port__text{
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(243, 243, 243);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, .5);
+  /* font-family: Portfolio; */
+  opacity: 0;
+}
+
+.image__container:hover .overlay{
+  cursor: pointer;
+  opacity: .35;
+}
+
+.gallery-link{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.gallery-overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(240, 240, 240, 0.65);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ text-align: center;
+  color: black;
+  font-size: 1.35rem;
+  font-weight: 400;
+  font-family: Header;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .2s;
+}
+
+.gallery-link:hover .gallery-overlay{
+  opacity: 1;
+}
+
