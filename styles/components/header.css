@@ -10,7 +10,7 @@ ul li a{
 
 ul li a:hover{
   font-weight: 600;
-  transition: .2s;
+  transition: .1s;
 }
 
 ul li{
@@ -18,14 +18,41 @@ ul li{
   list-style: none;
 }
 
+.active{
+  font-weight: 900;
+  opacity: 1;
+  color: black;
+}
+
+.head{
+  color: rgb(75, 75, 75);
+}
+
+.head:hover{
+  color: black;
+}
+
 .header__link{
-  padding-right: 20px;
+  padding-right: 12px;
   padding-top: .75rem;
 }
 
 .header__socials{
   display: flex;
+}
+
+.socials{
+  position: relative;
+  color: rgb(65, 65, 65);
   
+}
+
+.yt:hover{
+  color: red;
+}
+
+.ig:hover{
+  color: rgb(255, 0, 255);
 }
 
 .header__logo{
@@ -86,7 +113,7 @@ ul li{
 .hamburger__btn.close{
   top: 0;
   left: 2px;
-  fill: black;
+  fill: red;
   transition: fill .4s ease-in-out;
   z-index: 100;
 }
@@ -150,6 +177,10 @@ ul li{
 /* md */
 @media (min-width: 768px) {
 
+  .socials{
+    position: relative;
+    left: -6px;
+  }
   
 .mobile__btn{
   display: none;
